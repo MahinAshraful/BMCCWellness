@@ -1,0 +1,26 @@
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+
+.collapsed {
+  .flex-1 {
+    display: none;
+  }
+  .namee {
+    display: none;
+  }
+
+  color: #0f0a0a;
+  width: 0;
+  margin-left: 20px;
+}
+
+.topspace {
+  margin-top:350px;
+}
+
+.topspace1 {
+  margin-top: 500px;
+}
+
