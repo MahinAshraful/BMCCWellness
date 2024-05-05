@@ -32,7 +32,7 @@ function Bar() {
                 <a href="#Resources" className="block">Resources</a>
             </li>
             <li className="px-6 py-3 mb-6 hover:bg-gray-800 hover:text-white">
-                <a href="#" className="block">Contact</a>
+                <a href="#Contact" className="block">Contact</a>
             </li>
           </ul>
         </div>

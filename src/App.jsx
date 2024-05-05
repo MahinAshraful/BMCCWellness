@@ -3,6 +3,7 @@ import './App.css';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Chatbot from "./Chatbot";
 import RCard from "./RCard";
+import Contact from "./Contact";
 
 function App() {
   const [text] = useTypewriter({
@@ -67,6 +68,15 @@ function App() {
 
 <div className="">
   <RCard></RCard>
+</div>
+
+
+<div className="mb-32 topspace1">
+  <h1 className="text-4xl font-bold text-black mb-7 " id="Contact">Contact</h1>
+</div>
+
+<div>
+  <Contact></Contact>
 </div>
 
     </>

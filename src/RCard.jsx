@@ -57,7 +57,7 @@ function RCard(){
             </CardContent>
 
             <CardFooter>
-                <p>Click Here for Financial Aid Help</p>
+                <a href="https://www.bmcc.cuny.edu/finaid/">Click Here for Financial Aid Help</a>
             </CardFooter>
         </Card>
         </div>
