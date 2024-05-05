@@ -1,6 +1,5 @@
 import { useState } from "react";
 import axios from "axios";
-import { Textarea } from "@/components/ui/textarea"
 
 
 function Chatbot(){
