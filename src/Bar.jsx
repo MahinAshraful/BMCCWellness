@@ -19,19 +19,19 @@ function Bar() {
             {isCollapsed ? 'Expand' : 'Collapse'}
           </button>
         </div>
-        <div className="flex-1 flex flex-col justify-center">
+        <div className="flex flex-col justify-center flex-1">
           <ul className="py-4">
 
-            <li className="px-6 py-3 hover:bg-gray-800 hover:text-white mb-6">
+            <li className="px-6 py-3 mb-6 hover:bg-gray-800 hover:text-white">
                 <a href="#about" className="block">About Us</a>
             </li>
-            <li className="px-6 py-3 hover:bg-gray-800 hover:text-white mb-6">
+            <li className="px-6 py-3 mb-6 hover:bg-gray-800 hover:text-white">
                 <a href="#CALVIN" className="block">Talk to Calvin</a>
             </li>
-            <li className="px-6 py-3 hover:bg-gray-800 hover:text-white mb-6">
-                <a href="#" className="block">Resources</a>
+            <li className="px-6 py-3 mb-6 hover:bg-gray-800 hover:text-white">
+                <a href="#Resources" className="block">Resources</a>
             </li>
-            <li className="px-6 py-3 hover:bg-gray-800 hover:text-white mb-6">
+            <li className="px-6 py-3 mb-6 hover:bg-gray-800 hover:text-white">
                 <a href="#" className="block">Contact</a>
             </li>
           </ul>

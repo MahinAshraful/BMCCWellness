@@ -16,8 +16,8 @@ function App() {
     <div className="flex">
       <Bar />
 
-      <div className="flex-1 flex flex-col justify-center items-center mt-64 mb-64 text-4xl">
-        <h1 className="customsz font-bold text-black">Feel <br />
+      <div className="flex flex-col items-center justify-center flex-1 mt-64 mb-64 text-4xl">
+        <h1 className="font-bold text-black customsz">Feel <br />
         <br />
         <br />
         <br />
@@ -61,8 +61,8 @@ function App() {
   <Chatbot></Chatbot>
 </div>
 
-<div className="topspace1 mb-32">
-  <h1 className="text-4xl font-bold text-black mb-7 " id="resources">Resources</h1>
+<div className="mb-32 topspace1">
+  <h1 className="text-4xl font-bold text-black mb-7 " id="Resources">Resources</h1>
 </div>
 
 <div className="">
