@@ -37,7 +37,7 @@ function App() {
   <h1 className="text-4xl font-bold text-black " id="about">What is BMCC Wellness</h1>
   <p className="mt-5 mb-5 text-l" >
     <br />
-      BMCC Wellness is more than just a program; it's a comprehensive support system designed to prioritize the mental and emotional well-being of every individual within the BMCC community. At its core, BMCC Wellness embodies a commitment to fostering a nurturing environment where students and staff alike can thrive not only academically but also personally.
+      MCC Wellness is more than just a program; it's a comprehensive support system designed to prioritize the mental and emotional well-being of every individual within the BMCC community. At its core, BMCC Wellness embodies a commitment to fostering a nurturing environment where students and staff alike can thrive not only academically but also personally.
     
       One of the pioneering features of BMCC Wellness is CALVIN, an AI bot that goes beyond mere technology; it represents a beacon of compassionate counseling and adaptive assistance. CALVIN stands for Compassionate Counseling, Adaptive Assistance, Listening Support, Virtual Therapy, Interactive Guidance, and Nurturing. It's not just an acronym; it's a testament to our dedication to utilizing cutting-edge technology in the service of human connection and support. CALVIN provides a confidential space for individuals to express themselves, seek guidance, and receive virtual therapy sessions tailored to their specific needs and concerns.
     
