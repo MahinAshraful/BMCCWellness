@@ -1,12 +1,12 @@
-import Bar from "../Bar";
+import Bar from '../Bar';
 import '../App.css';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import Chatbot from "../Chatbot";
-import RCard from "../RCard";
-import Contact from "../Contact";
+import RCard from '../RCard';
+import Contact from '../Contact';
+import { Link } from 'react-router-dom';
 
 
-function UnLogged() {
+const Landing = () => {
   const [text] = useTypewriter({
     words: ['Supported', 'Resilient', 'Understood', 'Heard'],
     loop: {},
@@ -60,7 +60,7 @@ function UnLogged() {
 
 
 <div>
-  <Chatbot></Chatbot>
+  CALVIN is currently a feature only accessible to BMCC students, in order to access CALVIN you will need to login. Click here to <b><Link to="/login">Login</Link></b>
 </div>
 
 <div className="mb-32 topspace1">
@@ -84,4 +84,4 @@ function UnLogged() {
   );
 }
 
-export default UnLogged;
+export default Landing;

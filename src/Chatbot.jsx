@@ -7,42 +7,6 @@ function Chatbot(){
     const[question, setQuestion] = useState("");
     const[answer, setAnswer] = useState("");
 
-    const [formData, setFormData] = useState({
-        fName: '', lName: '', emplid:'', email:'', password:''
-    })
-
-    console.log(formData)
-
-    function handleChange(event){
-        setFormData((prevFormData) =>{
-            return{
-                ...prevFormData,
-                [event.target.name]:event.target.value
-            }
-        })
-    }
-
-    async function handleSubmit(e){
-        e.preventDefault()
-
-        try {
-        const { data, error } = await supabase.auth.signUp({
-            email: formData.email,
-            password: formData.password,
-            options: {
-            data: {
-                first_name: formData.fName,
-                last_name: formData.lName,
-                bmccemplid: formData.emplid,
-            }
-            }
-        }
-        )
-        alert('Check your email for a verification link')
-        } catch (error){
-            alert(error)
-        }
-    }
     
 
     async function generateAnswer(){
@@ -68,16 +32,7 @@ function Chatbot(){
 
         <p>{answer}</p>
 
-        <div>
-            <form onSubmit={handleSubmit}>
-                <input placeholder="First Name" name="fName" onChange={handleChange}/>
-                <input placeholder="Last Name" name="lName" onChange={handleChange}/>
-                <input placeholder="EMPLID" name="emplid" onChange={handleChange}/>
-                <input placeholder="BMCC Email" name="email" onChange={handleChange}/>
-                <input placeholder="Password" name="password" onChange={handleChange} type="password"/>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+
     </>
     );
 
