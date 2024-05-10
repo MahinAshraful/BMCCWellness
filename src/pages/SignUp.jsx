@@ -24,7 +24,7 @@ const SignUp = () => {
 
   async function handleSubmit(e){
     e.preventDefault()
-
+    if (formData.email.includes('@stu.bmcc.cuny.edu') ){
     try {
       const { data, error } = await supabase.auth.signUp(
         {
@@ -46,13 +46,16 @@ const SignUp = () => {
     } catch (error) {
       alert(error)
     }
-  }
+  }else{
+    alert("You have to have a BMCC associated email")
+  } 
+} 
 
 
 
 
   return (
-    <div className="signup-container"> {/* Added class name */}
+    <div className="signup-container"> 
         <form onSubmit={handleSubmit}>
         <input type='text'
           placeholder='First Name'
@@ -91,7 +94,7 @@ const SignUp = () => {
 
 
       </form>
-      Already have an account?<Link to='/'>Login</Link> 
+      Already have an account?<Link to='/login'>Login</Link> 
     </div>
   )
 }
