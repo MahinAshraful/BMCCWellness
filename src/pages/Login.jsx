@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useNavigate} from 'react-router-dom';
-import { supabase } from '../client';
+import { supabase } from '@/client';
 import '@/login.css';
+
 
 const Login = ({setToken}) => {
   let navigate = useNavigate()

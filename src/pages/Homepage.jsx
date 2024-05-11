@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Chatbot from '@/Chatbot'
+import { supabase } from '@/client'
 
 const Homepage = ({token}) => {
   let navigate = useNavigate()

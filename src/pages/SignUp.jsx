@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { supabase } from '../client';
+import { supabase } from '@/client';
 import '@/signup.css';
 
 const SignUp = () => {

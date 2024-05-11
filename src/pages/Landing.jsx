@@ -4,6 +4,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import RCard from '../RCard';
 import Contact from '../Contact';
 import { Link } from 'react-router-dom';
+import { supabase } from '@/client';
 
 
 const Landing = () => {

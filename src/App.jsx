@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { SignUp, Login, Homepage } from './pages';
 import { useState, useEffect } from 'react';
 import Landing from './pages/Landing';
+import { supabase } from './client';
 
 
 function App() {
